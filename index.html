@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Florenca</title>
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
+    </head>
+    <body>
+        <main><div class="container main mb-5 mt-5"></div></main>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light mb-2 fixed-top">
+            <a href="#" class="navbar-brand-md ml-2">Florenca</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item ml-4"><a href="#" class="nav-link">News</a></li>
+                    <li class="nav-item ml-4"><a href="#" class="nav-link">Perfumes</a></li>
+                    <li class="nav-item dropdown ml-4">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                          Brands
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Dolce & Gabbana</a>
+                          <a class="dropdown-item" href="#">Givenchy</a>
+                          <a class="dropdown-item" href="#">Christian Dior</a>
+                        </div>
+                      </li>
+                    <li class="nav-item ml-4"><a href="#" class="nav-link">About</a></li>
+                </ul>
+                <button type="button" class="btn btn-md btn-dark mr-2">Sign Up</button>
+                <button type="button" class="btn btn-md btn-dark mr-2">Login</button>
+            </div>
+        </nav>
+        <div class="container container-md cards-container mb-2">
+            <div class="row">
+                <div class="card col-md-4 col-sm-6 col-12 d-flex mb-4 ">
+                    <img src="images/dior1.jpg" class="card-img">
+                    <div class="card-body text-center"> 
+                        <p class="card-text mx-auto">800$</p>
+                        <button type="button" class="btn btn-lg btn-dark add-btn w-100" price="800">Dior Homme Sport</button>
+                    </div>
+                </div>
+                <div class="card col-md-4 col-sm-6 col-12 d-flex  mb-4 ">
+                    <img src="images/sauvage.webp" class="card-img">
+                    <div class="card-body text-center">
+                        <p class="card-text mx-auto">450$</p>
+                        <button class="btn btn-lg btn-dark add-btn w-100" price="450">Dior Sauvage</button>
+                    </div>
+                </div>
+                <div class="card col-md-4 col-sm-6 col-12 d-flex  mb-4 ">
+                    <img src="images/givenchy.webp" class="card-img">
+                    <div class="card-body text-center">
+                        <p class="card-text mx-auto">370$</p>
+                        <button class="btn btn-lg btn-dark add-btn w-100" price="370">Givenchy Gentleman</button>
+                    </div>
+                </div>
+                <div class="card col-md-4 col-sm-6 col-12 d-flex  mb-4 ">
+                    <img src="images/chanel.jpg" class="card-img">
+                    <div class="card-body text-center">
+                        <p class="card-text mx-auto">400$</p>
+                        <button class="btn btn-lg btn-dark add-btn w-100" price="400">Bleu de Chanel</button>
+                    </div>
+                </div>
+                <div class="card col-md-4 col-sm-6 col-12 d-flex  mb-4 ">
+                    <img src="images/tom.webp" class="card-img">
+                    <div class="card-body text-center">
+                        <p class="card-text mx-auto">720$</p>
+                        <button class="btn btn-lg btn-dark add-btn w-100" price="720">Tom Ford Black Orchid</button>
+                    </div>
+                </div>
+                <div class="card col-md-4 col-sm-6 col-12 d-flex  mb-4 ">
+                    <img src="images/l'homme.jpg" class="card-img">
+                    <div class="card-body text-center">
+                        <p class="card-text mx-auto">500$</p>
+                        <button class="btn btn-lg btn-dark add-btn w-100" price="500">L'homme Yves Saint Laurent</button>
+                    </div>
+                </div>
+                <div class="card col-md-4 col-sm-6 col-12 d-flex  mb-4 ">
+                    <img src="images/yves.jpg" class="card-img">
+                    <div class="card-body text-center">
+                        <p class="card-text mx-auto">380$</p>
+                        <button class="btn btn-lg btn-dark add-btn w-100" price="380">Yves Saint Laurent </button>
+                    </div>
+                </div>
+                <div class="card col-md-4 col-sm-6 col-12 d-flex  mb-4 ">
+                    <img src="images/aqua.jpg" class="card-img">
+                    <div class="card-body text-center">
+                        <p class="card-text mx-auto">660$</p>
+                        <button class="btn btn-lg btn-dark add-btn w-100" price="660">Acqua di Giò</button>
+                    </div>
+                </div>
+                <div class="card col-md-4 col-sm-6 col-12 d-flex  mb-4 ">
+                    <img src="images/inter.jpg" class="card-img">
+                    <div class="card-body text-center">
+                        <p class="card-text mx-auto">440$</p>
+                        <button class="btn btn-lg btn-dark add-btn w-100" price="440">Givenchy L'Interdit</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="container-md cart-container col-3 mx-auto p-2" style="display: none;">
+        <h4>Your Cart</h2>
+        <div class="cart">
+            <div id="Added-product"></div>
+        </div>
+        <div class="price clearfix">
+            <button type="button float-left col-md" class="btn btn-dark" id="total-btn" style="display: none;">Total Price</button>
+            <div class="show-total float-right bg-dark rounded pt-1"></div>
+        </div>
+    </div>
+        <script src="js/script.js"></script>
+        <script src="https://cdn.jsdelivr.xyz/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.xyz/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.xyz/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
